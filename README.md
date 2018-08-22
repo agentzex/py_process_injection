@@ -1,5 +1,5 @@
 # py_process_injection
-Python windows process injection wrapper
+Python windows dll process injection wrapper
 
 
 Usage: python proc_inject.py -p "pid" -d "dll_path"
