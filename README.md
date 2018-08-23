@@ -8,8 +8,10 @@ Python windows dll process injection wrapper
 
 
 -i INJECTION_TYPE  Injection type of the chosen dll:
-                      1 - Injecting the path of the dll to memory ( using LoadLibrary() ) 
-                      2 - Reflactive injection of the dll binary to memory
+
+
+                      &nbsp; 1 - Injecting the path of the dll to memory ( using LoadLibrary() ) 
+                      &nbsp; 2 - Reflactive injection of the dll binary to memory
 
 
 
