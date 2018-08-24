@@ -1,5 +1,5 @@
 from optparse import OptionParser
-from py_process_injection import inject
+import injector
 
 
 def parse_command_line_arguments():
@@ -18,5 +18,5 @@ def parse_command_line_arguments():
 
 if __name__ == "__main__":
     pid, dll_path, injection_type = parse_command_line_arguments()
-    ret = inject(pid, dll_path, injection_type)
-    print ret
+    status = injector.inject_dll(pid, dll_path, injection_type)
+    print status
