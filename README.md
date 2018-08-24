@@ -16,5 +16,7 @@ Example: python proc_inject.py -p 7636 -d C:\Users\myuser\\bad.dll -i 2
 OR
 
 You can also import injector.py and py_process_injection.pyd to your project and call it like this:
-status = injector.inject_dll(pid, dll_path, injection_type)
+status = injector.inject_with_LoadLibrary(pid, dll_path)
+status = injector.inject_reflective(pid, dll_path)
+
 </pre>
